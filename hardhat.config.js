@@ -1,4 +1,5 @@
 require("@nomicfoundation/hardhat-toolbox");
+require('dotenv').config()
 
 // This is a sample Hardhat task. To learn how to create your own go to
 // https://hardhat.org/guides/create-task.html
@@ -43,7 +44,7 @@ module.exports = {
     networks: {
         fuji: {
             url: "https://api.avax-test.network/ext/bc/C/rpc",
-            accounts: ["ea13c75d77fcd1514d10ca10f1c294ec249bc7140bba32c201f828f0ca54f584"],
+            accounts: [process.env.PRIVATE_KEY],
       },
     },
 };
