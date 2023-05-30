@@ -1,5 +1,7 @@
 # Blockchain Wave Portal
 
+<img width="1512" alt="Screenshot 2023-05-17 at 12 52 11" src="https://github.com/siljapetasch/blockchain-wave-portal/assets/78182344/44d9296a-25a5-4285-980d-fe4e82581e0e">
+
 ## Project Description
 Blockchain Wave Portal is a decentralized application (dApp) developed as part of the Buildspace "Intro to Solidity: Ship an Ethereum dApp" course. The dApp allows users to interact with a smart contract deployed on the Avalanche Fuji testnet, enabling them to send waves along with personalized messages.
 
